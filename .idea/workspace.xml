@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eae06ad0-2e90-4b81-857d-1abb0e01dab2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectId" id="1hjzOZ8DujM9Nf9zxilUBZJXx8R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eae06ad0-2e90-4b81-857d-1abb0e01dab2" name="Default Changelist" comment="" />
+      <created>1600539257480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600539257480</updated>
+      <workItem from="1600539258906" duration="1527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="217" y="0" key="#Inspections" timestamp="1600539383595">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="217" y="0" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1600539383595" />
+    <state x="347" y="229" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600539540233">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="347" y="229" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.720@0.0.1280.720" timestamp="1600539540233" />
+  </component>
+</project>
