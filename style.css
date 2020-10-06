@@ -16,14 +16,13 @@ body{
     font-family: "Open Sans",sans-serif;
     color: #fff;
     background-size: cover;
-    cursor: pointer;
 }
 
 .cursor{
     position: fixed;
     width: 50px;
     height: 50px;
-    border: 1px solid #00fcd4;
+    border: 1px solid #444;
     border-radius: 50%;
     left: 0;
     top: 0;
@@ -36,13 +35,23 @@ body{
     position: fixed;
     width: 8px;
     height: 8px;
-    background-color: #00fcd4;
+    background-color: #444;
     border-radius: 50%;
     left: 0;
     top: 0;
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: 0.15s;
+}
+
+.content:hover ~ .cursor {
+    transform: translate(-50%, -50%) scale(1.5);
+    background-color: #444;
+    opacity: .5;
+}
+
+.touch_mouse:hover ~ .cursor2{
+    opacity: 0;
 }
 
 .content p{
@@ -52,10 +61,87 @@ body{
   text-align: justify;
 }
 
+.item-li-1{
+    /* will style only the top level li */
+    list-style: none;
+    margin: 1px;
+    position: relative;
+}
+
+.item-a-2:hover{
+    text-decoration: none !important;
+    color: #ff0000 !important;
+}
+
+.item-ul-3{
+    position:absolute;
+    list-style:none;
+    text-align:center;
+    width: 180px;
+    left:41%;
+    margin-left:-90px;
+    top:30px;
+    font:bold 12px 'Open Sans Condensed', sans-serif;
+    max-height:0px;
+    overflow: hidden;
+    -webkit-transition:max-height 0.4s linear;
+    -moz-transition:max-height 0.4s linear;
+    transition:max-height 0.4s linear;
+}
+
+.item-li-4{
+    background-color: #313131;
+}
+
+.item-li-4 a{
+    padding:12px;
+    color:#fff !important;
+    text-decoration:none !important;
+    display:block;
+}
+
 nav.bg-transparent{
     background: transparent;
     transition: all 0.3 ease;
     height: 120px;
+}
+
+.item-li-4:nth-child(odd) {
+    /* zebra stripes */
+    background-color: #363636;
+}
+
+.item-li-4:hover {
+    background-color: #444;
+}
+
+.item-li-4:first-child {
+    border-radius: 3px 3px 0 0;
+    margin-top: 30px;
+    position: relative;
+}
+
+.item-li-4:first-child:before {
+    /* the pointer tip */
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-bottom-color: #313131;
+    left: 50%;
+    top: -10px;
+    margin-left: -5px;
+}
+
+.item-li-4:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.item-li-1:hover .item-ul-3 {
+    max-height: 300px;
+    /* Increase when adding more dropdown items */
 }
 
 .nav ul{
@@ -76,6 +162,16 @@ nav ul li.nav-item a:hover{
 .navbar-dark .navbar-nav .nav-link{
     color: rgba(255,255,255,0.5);
     margin-right: 20px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    outline: none;
+    color: #54a6de;
+}
+
+.nav-link:hover {
+    color: #313131;
 }
 
 #header{
@@ -162,4 +258,8 @@ nav ul li.nav-item a:hover{
         flex: 100%;
         max-width: 500;
     }
+}
+
+#content-2 {
+    height: 80vh;
 }
