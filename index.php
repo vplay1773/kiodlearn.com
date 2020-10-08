@@ -17,6 +17,7 @@
         <link href="css/Offset.css" rel="stylesheet">
         <link href="css/nav.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="css/content.css">
         <!--JS, Popper.js, and jquery -->         
         <script src="Scripts/jquery-1.10.2.min.js"></script>         
         <script src="Scripts/bootstrap-rtl.js"></script>
@@ -131,11 +132,7 @@
         </header>   
         <!--end header-->
         <!--start content-->
-            <div class="row">
-                <div class="col-12" id="content-2" style="background-color: #f6f6f6;">
-                    
-                </div>
-            </div>
+    
         <!--end content-->         
     </body>     
     <script src="Scripts/jquery-1.10.2.min.js"></script>

@@ -9,13 +9,13 @@ body{
     font-weight: 200;
     direction: left; 
     overflow-x: hidden;
-    height: 1000vh;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-family: "Open Sans",sans-serif;
     color: #fff;
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .cursor{
@@ -148,6 +148,10 @@ nav.bg-transparent{
     transition: all 0.6s ease;
 }
 
+.nav-item a{
+    transition: all 0.3s ease;
+}
+
 .nav ul li.nav-item a{
     color: #f1f1f1!important;
     font-family: sans-serif;
@@ -156,7 +160,7 @@ nav.bg-transparent{
 }
 
 nav ul li.nav-item a:hover{
-    color: #3498db!important;
+    color: #f1f1f1!important;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -167,7 +171,7 @@ nav ul li.nav-item a:hover{
 a, a:visited {
     text-decoration: none;
     outline: none;
-    color: #54a6de;
+    color: #313131;
 }
 
 .nav-link:hover {
@@ -258,8 +262,4 @@ a, a:visited {
         flex: 100%;
         max-width: 500;
     }
-}
-
-#content-2 {
-    height: 80vh;
 }
