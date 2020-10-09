@@ -16,6 +16,7 @@ body{
     color: #fff;
     background-size: cover;
     box-sizing: border-box;
+    height: 100vh;
 }
 
 .cursor{
@@ -149,7 +150,7 @@ nav.bg-transparent{
 }
 
 .nav-item a{
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .nav ul li.nav-item a{
@@ -169,9 +170,10 @@ nav ul li.nav-item a:hover{
 }
 
 a, a:visited {
+    list-style: circle;
     text-decoration: none;
     outline: none;
-    color: #313131;
+    color: rgba(184, 184, 184, 0.5);
 }
 
 .nav-link:hover {
